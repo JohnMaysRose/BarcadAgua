@@ -11087,6 +11087,29 @@ p {
   }
 }
 
+.list-months {
+    font-size: 0.9rem;
+}
+
+    .list-months .list-months-item {
+        border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+        padding-bottom: 0.25rem;
+        margin-bottom: 1rem;
+        font-style: italic;
+    }
+
+        .list-months .list-months-item.today {
+            font-weight: bold;
+            color: #e6a756;
+        }
+
+@media (min-width: 992px) {
+    .list-months {
+        width: 85%;
+        font-size: 1.1rem;
+    }
+}
+
 .address strong {
   font-size: 1.2rem;
 }
